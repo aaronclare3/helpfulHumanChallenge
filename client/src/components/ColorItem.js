@@ -5,9 +5,9 @@ const ColorItem = ({ color }) => {
   return (
     <div className='ColorItem'>
       <div className='ColorItem-color' style={{ background: `#${color.hex}` }}>
-        {color.hex}, {color.colorCategory}
+        {color.colorCategory}
       </div>
-      <div className='ColorItem-detail'>hello</div>
+      <div className='ColorItem-detail'>#{color.hex}</div>
     </div>
   );
 };

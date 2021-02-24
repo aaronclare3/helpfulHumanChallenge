@@ -1,4 +1,6 @@
 .Header {
     height: 80px;
     background: #363C3D;
+    position: fixed;
+    width: 100%;
 }

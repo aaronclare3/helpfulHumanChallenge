@@ -1,14 +1,14 @@
 const colors = [
   {
-    colorCategory: "Navy",
+    colorCategory: "Blue",
     hex: "000080",
   },
   {
-    colorCategory: "DarkBlue",
+    colorCategory: "Blue",
     hex: "00008B",
   },
   {
-    colorCategory: "MediumBlue",
+    colorCategory: "Blue",
     hex: "0000CD",
   },
   {
@@ -16,7 +16,7 @@ const colors = [
     hex: "0000FF",
   },
   {
-    colorCategory: "DarkGreen",
+    colorCategory: "Green",
     hex: "006400",
   },
   {
@@ -24,171 +24,164 @@ const colors = [
     hex: "008000",
   },
   {
-    colorCategory: "Teal",
+    colorCategory: "Green",
     hex: "008080",
   },
   {
-    colorCategory: "DarkCyan",
+    colorCategory: "Green",
     hex: "008B8B",
   },
   {
-    colorCategory: "DeepSkyBlue",
+    colorCategory: "Blue",
     hex: "00BFFF",
   },
   {
-    colorCategory: "DarkTurquoise",
+    colorCategory: "Green",
     hex: "00CED1",
   },
   {
-    colorCategory: "MediumSpringGreen",
+    colorCategory: "Green",
     hex: "00FA9A",
   },
   {
-    colorCategory: "Lime",
+    colorCategory: "Green",
     hex: "00FF00",
   },
   {
-    colorCategory: "SpringGreen",
+    colorCategory: "Green",
     hex: "00FF7F",
   },
   {
-    colorCategory: "Aqua",
+    colorCategory: "Blue",
     hex: "00FFFF",
   },
   {
-    colorCategory: "Cyan",
+    colorCategory: "Blue",
     hex: "00FFFF",
   },
   {
-    colorCategory: "MidnightBlue",
+    colorCategory: "Blue",
     hex: "191970",
   },
   {
-    colorCategory: "DodgerBlue",
+    colorCategory: "Blue",
     hex: "1E90FF",
   },
   {
-    colorCategory: "LightSeaGreen",
+    colorCategory: "Green",
     hex: "20B2AA",
   },
   {
-    colorCategory: "ForestGreen",
+    colorCategory: "Green",
     hex: "228B22",
   },
   {
-    colorCategory: "SeaGreen",
+    colorCategory: "Green",
     hex: "2E8B57",
   },
   {
-    colorCategory: "DarkSlateGray",
+    colorCategory: "Green",
     hex: "2F4F4F",
   },
   {
-    colorCategory: "DarkSlateGrey",
+    colorCategory: "Green",
     hex: "2F4F4F",
   },
   {
-    colorCategory: "LimeGreen",
+    colorCategory: "Green",
     hex: "32CD32",
   },
   {
-    colorCategory: "MediumSeaGreen",
+    colorCategory: "Green",
     hex: "3CB371",
   },
   {
-    colorCategory: "Turquoise",
+    colorCategory: "Green",
     hex: "40E0D0",
   },
   {
-    colorCategory: "RoyalBlue",
+    colorCategory: "Blue",
     hex: "4169E1",
   },
   {
-    colorCategory: "SteelBlue",
+    colorCategory: "Blue",
     hex: "4682B4",
   },
   {
-    colorCategory: "DarkSlateBlue",
+    colorCategory: "Purple",
     hex: "483D8B",
   },
   {
-    colorCategory: "MediumTurquoise",
+    colorCategory: "Green",
     hex: "48D1CC",
   },
   {
-    colorCategory: "Indigo",
+    colorCategory: "Purple",
     hex: "4B0082",
   },
   {
-    colorCategory: "DarkOliveGreen",
+    colorCategory: "Green",
     hex: "556B2F",
   },
   {
-    colorCategory: "CadetBlue",
+    colorCategory: "Green",
     hex: "5F9EA0",
   },
   {
-    colorCategory: "CornflowerBlue",
+    colorCategory: "Blue",
     hex: "6495ED",
   },
   {
-    colorCategory: "RebeccaPurple",
+    colorCategory: "Purple",
     hex: "663399",
   },
   {
-    colorCategory: "MediumAquaMarine",
+    colorCategory: "Green",
     hex: "66CDAA",
   },
   {
-    colorCategory: "DimGray",
+    colorCategory: "Gray",
     hex: "696969",
   },
   {
-    colorCategory: "DimGrey",
+    colorCategory: "Gray",
     hex: "696969",
   },
   {
-    colorCategory: "SlateBlue",
+    colorCategory: "Purple",
     hex: "6A5ACD",
   },
   {
-    colorCategory: "OliveDrab",
+    colorCategory: "Green",
     hex: "6B8E23",
   },
   {
-    colorCategory: "SlateGray",
+    colorCategory: "Gray",
     hex: "708090",
   },
   {
-    colorCategory: "SlateGrey",
-    hex: "708090",
-  },
-  {
-    colorCategory: "LightSlateGray",
+    colorCategory: "Gray",
     hex: "778899",
   },
+
   {
-    colorCategory: "LightSlateGrey",
-    hex: "778899",
-  },
-  {
-    colorCategory: "MediumSlateBlue",
+    colorCategory: "Purple",
     hex: "7B68EE",
   },
   {
-    colorCategory: "LawnGreen",
+    colorCategory: "Green",
     hex: "7CFC00",
   },
   {
-    colorCategory: "Chartreuse",
+    colorCategory: "Green",
     hex: "7FFF00",
   },
   {
-    colorCategory: "Aquamarine",
+    colorCategory: "Green",
     hex: "7FFFD4",
   },
   {
-    colorCategory: "Maroon",
+    colorCategory: "Red",
     hex: "800000",
   },
   {
@@ -196,135 +189,127 @@ const colors = [
     hex: "800080",
   },
   {
-    colorCategory: "Olive",
+    colorCategory: "Green",
     hex: "808000",
-  },
-  {
-    colorCategory: "Gray",
-    hex: "808080",
   },
   {
     colorCategory: "Grey",
     hex: "808080",
   },
   {
-    colorCategory: "SkyBlue",
+    colorCategory: "Blue",
     hex: "87CEEB",
   },
   {
-    colorCategory: "LightSkyBlue",
+    colorCategory: "Blue",
     hex: "87CEFA",
   },
   {
-    colorCategory: "BlueViolet",
+    colorCategory: "Purple",
     hex: "8A2BE2",
   },
   {
-    colorCategory: "DarkRed",
+    colorCategory: "Red",
     hex: "8B0000",
   },
   {
-    colorCategory: "DarkMagenta",
+    colorCategory: "Purple",
     hex: "8B008B",
   },
   {
-    colorCategory: "SaddleBrown",
+    colorCategory: "Brown",
     hex: "8B4513",
   },
   {
-    colorCategory: "DarkSeaGreen",
+    colorCategory: "Green",
     hex: "8FBC8F",
   },
   {
-    colorCategory: "LightGreen",
+    colorCategory: "Green",
     hex: "90EE90",
   },
   {
-    colorCategory: "MediumPurple",
+    colorCategory: "Purple",
     hex: "9370DB",
   },
   {
-    colorCategory: "DarkViolet",
+    colorCategory: "Purple",
     hex: "9400D3",
   },
   {
-    colorCategory: "PaleGreen",
+    colorCategory: "Green",
     hex: "98FB98",
   },
   {
-    colorCategory: "DarkOrchid",
+    colorCategory: "Purple",
     hex: "9932CC",
   },
   {
-    colorCategory: "YellowGreen",
+    colorCategory: "Green",
     hex: "9ACD32",
   },
   {
-    colorCategory: "Sienna",
+    colorCategory: "Brown",
     hex: "A0522D",
   },
   {
-    colorCategory: "Brown",
+    colorCategory: "Red",
     hex: "A52A2A",
   },
   {
-    colorCategory: "DarkGray",
+    colorCategory: "Gray",
     hex: "A9A9A9",
   },
   {
-    colorCategory: "DarkGrey",
-    hex: "A9A9A9",
-  },
-  {
-    colorCategory: "LightBlue",
+    colorCategory: "Blue",
     hex: "ADD8E6",
   },
   {
-    colorCategory: "GreenYellow",
+    colorCategory: "Green",
     hex: "ADFF2F",
   },
   {
-    colorCategory: "PaleTurquoise",
+    colorCategory: "Blue",
     hex: "AFEEEE",
   },
   {
-    colorCategory: "LightSteelBlue",
+    colorCategory: "Blue",
     hex: "B0C4DE",
   },
   {
-    colorCategory: "PowderBlue",
+    colorCategory: "Blue",
     hex: "B0E0E6",
   },
   {
-    colorCategory: "FireBrick",
+    colorCategory: "Red",
     hex: "B22222",
   },
   {
-    colorCategory: "DarkGoldenRod",
+    colorCategory: "Brown",
     hex: "B8860B",
   },
   {
-    colorCategory: "MediumOrchid",
+    colorCategory: "Purple",
     hex: "BA55D3",
   },
   {
-    colorCategory: "RosyBrown",
+    colorCategory: "Purple",
     hex: "BC8F8F",
   },
   {
-    colorCategory: "DarkKhaki",
+    colorCategory: "Green",
     hex: "BDB76B",
   },
   {
-    colorCategory: "Silver",
+    colorCategory: "Gray",
     hex: "C0C0C0",
   },
   {
-    colorCategory: "MediumVioletRed",
+    colorCategory: "Purple",
     hex: "C71585",
   },
   {
-    colorCategory: "IndianRed",
+    colorCategory: "Red",
     hex: "CD5C5C",
   },
   {
@@ -332,135 +317,131 @@ const colors = [
     hex: "CD853F",
   },
   {
-    colorCategory: "Chocolate",
+    colorCategory: "Brown",
     hex: "D2691E",
   },
   {
-    colorCategory: "Tan",
+    colorCategory: "Orange",
     hex: "D2B48C",
   },
   {
-    colorCategory: "LightGray",
+    colorCategory: "Gray",
     hex: "D3D3D3",
   },
   {
-    colorCategory: "LightGrey",
-    hex: "D3D3D3",
-  },
-  {
-    colorCategory: "Thistle",
+    colorCategory: "Purple",
     hex: "D8BFD8",
   },
   {
-    colorCategory: "Orchid",
+    colorCategory: "Purple",
     hex: "DA70D6",
   },
   {
-    colorCategory: "GoldenRod",
+    colorCategory: "Yellow",
     hex: "DAA520",
   },
   {
-    colorCategory: "PaleVioletRed",
+    colorCategory: "Red",
     hex: "DB7093",
   },
   {
-    colorCategory: "Crimson",
+    colorCategory: "Red",
     hex: "DC143C",
   },
   {
-    colorCategory: "Gainsboro",
+    colorCategory: "Gray",
     hex: "DCDCDC",
   },
   {
-    colorCategory: "Plum",
+    colorCategory: "Purple",
     hex: "DDA0DD",
   },
   {
-    colorCategory: "BurlyWood",
+    colorCategory: "Brown",
     hex: "DEB887",
   },
   {
-    colorCategory: "LightCyan",
+    colorCategory: "Blue",
     hex: "E0FFFF",
   },
   {
-    colorCategory: "Lavender",
+    colorCategory: "Purple",
     hex: "E6E6FA",
   },
   {
-    colorCategory: "DarkSalmon",
+    colorCategory: "Orange",
     hex: "E9967A",
   },
   {
-    colorCategory: "Violet",
+    colorCategory: "Purple",
     hex: "EE82EE",
   },
   {
-    colorCategory: "PaleGoldenRod",
+    colorCategory: "Yellow",
     hex: "EEE8AA",
   },
   {
-    colorCategory: "LightCoral",
+    colorCategory: "Red",
     hex: "F08080",
   },
   {
-    colorCategory: "Khaki",
+    colorCategory: "Yellow",
     hex: "F0E68C",
   },
   {
-    colorCategory: "AliceBlue",
+    colorCategory: "Blue",
     hex: "F0F8FF",
   },
   {
-    colorCategory: "HoneyDew",
+    colorCategory: "Green",
     hex: "F0FFF0",
   },
   {
-    colorCategory: "Azure",
+    colorCategory: "Blue",
     hex: "F0FFFF",
   },
   {
-    colorCategory: "SandyBrown",
+    colorCategory: "Brown",
     hex: "F4A460",
   },
   {
-    colorCategory: "Wheat",
+    colorCategory: "Brown",
     hex: "F5DEB3",
   },
   {
-    colorCategory: "Beige",
+    colorCategory: "Yellow",
     hex: "F5F5DC",
   },
   {
-    colorCategory: "WhiteSmoke",
+    colorCategory: "Gray",
     hex: "F5F5F5",
   },
   {
-    colorCategory: "MintCream",
+    colorCategory: "Green",
     hex: "F5FFFA",
   },
   {
-    colorCategory: "GhostWhite",
+    colorCategory: "Purple",
     hex: "F8F8FF",
   },
   {
-    colorCategory: "Salmon",
+    colorCategory: "Red",
     hex: "FA8072",
   },
   {
-    colorCategory: "AntiqueWhite",
+    colorCategory: "Brown",
     hex: "FAEBD7",
   },
   {
-    colorCategory: "Linen",
+    colorCategory: "Brown",
     hex: "FAF0E6",
   },
   {
-    colorCategory: "LightGoldenRodYellow",
+    colorCategory: "Yellow",
     hex: "FAFAD2",
   },
   {
-    colorCategory: "OldLace",
+    colorCategory: "Brown",
     hex: "FDF5E6",
   },
   {
@@ -468,39 +449,39 @@ const colors = [
     hex: "FF0000",
   },
   {
-    colorCategory: "Fuchsia",
+    colorCategory: "Purple",
     hex: "FF00FF",
   },
   {
-    colorCategory: "Magenta",
+    colorCategory: "Purple",
     hex: "FF00FF",
   },
   {
-    colorCategory: "DeepPink",
+    colorCategory: "Purple",
     hex: "FF1493",
   },
   {
-    colorCategory: "OrangeRed",
+    colorCategory: "Orange",
     hex: "FF4500",
   },
   {
-    colorCategory: "Tomato",
+    colorCategory: "Orange",
     hex: "FF6347",
   },
   {
-    colorCategory: "HotPink",
+    colorCategory: "Purple",
     hex: "FF69B4",
   },
   {
-    colorCategory: "Coral",
+    colorCategory: "Orange",
     hex: "FF7F50",
   },
   {
-    colorCategory: "DarkOrange",
+    colorCategory: "Orange",
     hex: "FF8C00",
   },
   {
-    colorCategory: "LightSalmon",
+    colorCategory: "Orange",
     hex: "FFA07A",
   },
   {
@@ -508,67 +489,67 @@ const colors = [
     hex: "FFA500",
   },
   {
-    colorCategory: "LightPink",
+    colorCategory: "Purple",
     hex: "FFB6C1",
   },
   {
-    colorCategory: "Pink",
+    colorCategory: "Purple",
     hex: "FFC0CB",
   },
   {
-    colorCategory: "Gold",
+    colorCategory: "Yellow",
     hex: "FFD700",
   },
   {
-    colorCategory: "PeachPuff",
+    colorCategory: "Brown",
     hex: "FFDAB9",
   },
   {
-    colorCategory: "NavajoWhite",
+    colorCategory: "Brown",
     hex: "FFDEAD",
   },
   {
-    colorCategory: "Moccasin",
+    colorCategory: "Brown",
     hex: "FFE4B5",
   },
   {
-    colorCategory: "Bisque",
+    colorCategory: "Brown",
     hex: "FFE4C4",
   },
   {
-    colorCategory: "MistyRose",
+    colorCategory: "Purple",
     hex: "FFE4E1",
   },
   {
-    colorCategory: "BlanchedAlmond",
+    colorCategory: "Brown",
     hex: "FFEBCD",
   },
   {
-    colorCategory: "PapayaWhip",
+    colorCategory: "Brown",
     hex: "FFEFD5",
   },
   {
-    colorCategory: "LavenderBlush",
+    colorCategory: "Purple",
     hex: "FFF0F5",
   },
   {
-    colorCategory: "SeaShell",
+    colorCategory: "Brown",
     hex: "FFF5EE",
   },
   {
-    colorCategory: "Cornsilk",
+    colorCategory: "Brown",
     hex: "FFF8DC",
   },
   {
-    colorCategory: "LemonChiffon",
+    colorCategory: "Yellow",
     hex: "FFFACD",
   },
   {
-    colorCategory: "FloralWhite",
+    colorCategory: "Brown",
     hex: "FFFAF0",
   },
   {
-    colorCategory: "Snow",
+    colorCategory: "Brown",
     hex: "FFFAFA",
   },
   {
@@ -576,16 +557,12 @@ const colors = [
     hex: "FFFF00",
   },
   {
-    colorCategory: "LightYellow",
+    colorCategory: "Yellow",
     hex: "FFFFE0",
   },
   {
-    colorCategory: "Ivory",
+    colorCategory: "Yellow",
     hex: "FFFFF0",
-  },
-  {
-    colorCategory: "White",
-    hex: "FFFFFF",
   },
 ];
 
