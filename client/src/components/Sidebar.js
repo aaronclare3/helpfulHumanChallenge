@@ -1,7 +1,21 @@
 import React from "react";
 import "./Sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({ colorFilter }) => {
+  const handleClick = (color) => {
+    console.log("clicking");
+    colorFilter(color);
+  };
+  const colors = [
+    "Red",
+    "Orange",
+    "Yellow",
+    "Green",
+    "Blue",
+    "Purple",
+    "Brown",
+    "Gray",
+  ];
   return (
     <div className='Sidebar'>
       <div>
@@ -9,14 +23,14 @@ const Sidebar = () => {
           <button className='Sidebar-button'>Random Color</button>
         </div>
         <ul className='Sidebar-list'>
-          <li className='Sidebar-listItem'>Red</li>
-          <li className='Sidebar-listItem'>Orange</li>
-          <li className='Sidebar-listItem'>Yellow</li>
-          <li className='Sidebar-listItem'>Green</li>
-          <li className='Sidebar-listItem'>Blue</li>
-          <li className='Sidebar-listItem'>Purple</li>
-          <li className='Sidebar-listItem'>Brown</li>
-          <li className='Sidebar-listItem'>Gray</li>
+          {colors.map((col) => (
+            <li
+              key={col}
+              onClick={() => handleClick(col)}
+              className='Sidebar-listItem'>
+              {col}
+            </li>
+          ))}
         </ul>
       </div>
     </div>
