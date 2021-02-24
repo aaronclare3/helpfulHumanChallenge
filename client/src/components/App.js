@@ -29,8 +29,8 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Header />
         <Sidebar colorFilter={colorFilter} />
+        <Header />
         <Switch>
           <Route
             exact

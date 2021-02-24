@@ -2,5 +2,12 @@
     height: 80px;
     background: #363C3D;
     position: fixed;
+    z-index: 0;
     width: 100%;
+}
+
+.Header-logo {
+    position: relative;
+    top: 12px;
+    left: 35px;
 }
