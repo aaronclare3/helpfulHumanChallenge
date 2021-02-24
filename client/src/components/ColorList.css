@@ -1,7 +1,9 @@
 .ColorList {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    min-height: 914px;
     row-gap: 50px;
+    /* this would sticky the pagination at the bottom */
+    /* height: 914px; */
     column-gap: 50px;
+    grid-auto-rows: max-content;
 }

@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Sidebar colorFilter={colorFilter} />
+        {colors && <Sidebar colorFilter={colorFilter} colors={colors} />}
         <Header />
         <Switch>
           <Route

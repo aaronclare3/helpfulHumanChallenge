@@ -14,7 +14,6 @@ router.get("/", async (req, res) => {
 
 // fetch 1 color
 router.get("/:hex", async (req, res) => {
-  console.log("hi");
   try {
     const oneColor = await Color.find({ hex: req.params.hex });
     res.json(oneColor);

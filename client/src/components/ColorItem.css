@@ -1,6 +1,6 @@
 .ColorItem {
     display: grid;
-    grid-template-rows: 4fr 1fr;
+    grid-auto-rows: 4fr 1fr;
     height: 270px;
     /* width: 270px; */
     border-radius: 5px;
@@ -10,4 +10,11 @@
 .ColorItem-color {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+}
+
+.ColorItem-detail {
+    color: #727575;
+    margin: auto 0;
+    font-size: 20px;
+    margin-left: 15%;
 }

@@ -12,11 +12,13 @@ const Main = ({ colors, filteredColors }) => {
     let pagesArray = [];
     let numPages;
     if (filteredColors.length > 0) {
-      numPages = Math.floor(filteredColors.length / itemsPerPage);
+      numPages = Math.ceil(filteredColors.length / itemsPerPage);
+      console.log(numPages);
     } else {
-      numPages = Math.floor(colors.length / itemsPerPage);
+      numPages = Math.ceil(colors.length / itemsPerPage);
+      console.log(numPages);
     }
-    for (let i = 0; i <= numPages; i++) {
+    for (let i = 0; i < numPages; i++) {
       pagesArray.push(i);
     }
     setPages(pagesArray);
