@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import ColorList from "../components/ColorList";
 
 const Main = () => {
   const [colors, setColors] = useState([]);
@@ -14,7 +15,7 @@ const Main = () => {
     fetchColors();
   }, []);
 
-  return <div>hi</div>;
+  return <div>{colors && <ColorList colors={colors} />}</div>;
 };
 
 export default Main;
