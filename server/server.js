@@ -4,9 +4,11 @@ const mongoose = require("mongoose");
 const app = express();
 const colorsRoutes = require("./routes/colorsRoutes");
 const connectDB = require("./config/db");
+const cors = require("cors");
 
 connectDB();
 
+app.use(cors());
 app.use(express.json());
 app.use("/colors", colorsRoutes);
 
