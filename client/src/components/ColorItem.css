@@ -24,5 +24,9 @@
     width: fit-content;
 }
 
-
+@media (max-width: 566px) {
+    .ColorItem {
+        min-width: 216px;
+    }
+}
 
