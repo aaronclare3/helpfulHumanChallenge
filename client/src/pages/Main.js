@@ -54,6 +54,7 @@ const Main = ({ colors, filteredColors, searchedColors, searchActive }) => {
       </div>
       <div>
         <Pagination
+          colors={searchedColors}
           currentPage={currentPage}
           itemsPerPage={itemsPerPage}
           pages={pages}

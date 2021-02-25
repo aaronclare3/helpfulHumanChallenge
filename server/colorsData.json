@@ -57,10 +57,6 @@
   },
   {
     "colorCategory": "Blue",
-    "hex": "00FFFF"
-  },
-  {
-    "colorCategory": "Blue",
     "hex": "191970"
   },
   {
@@ -78,10 +74,6 @@
   {
     "colorCategory": "Green",
     "hex": "2E8B57"
-  },
-  {
-    "colorCategory": "Green",
-    "hex": "2F4F4F"
   },
   {
     "colorCategory": "Green",
@@ -138,10 +130,6 @@
   {
     "colorCategory": "Green",
     "hex": "66CDAA"
-  },
-  {
-    "colorCategory": "Gray",
-    "hex": "696969"
   },
   {
     "colorCategory": "Gray",
@@ -447,10 +435,6 @@
   {
     "colorCategory": "Red",
     "hex": "FF0000"
-  },
-  {
-    "colorCategory": "Purple",
-    "hex": "FF00FF"
   },
   {
     "colorCategory": "Purple",
