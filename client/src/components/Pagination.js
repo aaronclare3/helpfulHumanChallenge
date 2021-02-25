@@ -17,6 +17,8 @@ const Pagination = ({ currentPage, itemsPerPage, pages, setCurrentPage }) => {
                 onClick={() => handleClick(p)}
                 style={{
                   textDecoration: p === currentPage ? "underline" : "",
+                  fontSize: p === currentPage ? "23px" : "",
+                  color: p === currentPage ? "black" : "",
                 }}>
                 {p + 1}
               </li>

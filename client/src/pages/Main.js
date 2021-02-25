@@ -3,7 +3,7 @@ import ColorList from "../components/ColorList";
 import "./Main.css";
 import Pagination from "../components/Pagination";
 
-const Main = ({ colors, filteredColors }) => {
+const Main = ({ colors, filteredColors, searchedColors }) => {
   const [itemsPerPage, setItemsPerPage] = useState(12);
   const [currentPage, setCurrentPage] = useState(0);
   const [pages, setPages] = useState(null);
@@ -34,6 +34,13 @@ const Main = ({ colors, filteredColors }) => {
         {filteredColors.length > 0 ? (
           <ColorList
             colors={filteredColors.slice(
+              currentPage * itemsPerPage,
+              currentPage * itemsPerPage + itemsPerPage
+            )}
+          />
+        ) : searchedColors.length > 0 ? (
+          <ColorList
+            colors={searchedColors.slice(
               currentPage * itemsPerPage,
               currentPage * itemsPerPage + itemsPerPage
             )}

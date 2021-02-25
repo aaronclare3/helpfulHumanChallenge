@@ -21,6 +21,11 @@
     border: 1px solid #4E5453;
     background: white;
     font-size: large;
+    cursor: pointer;
+}
+
+.Sidebar-button:hover {
+    background: whitesmoke;
 }
 
 .Sidebar-list {
@@ -35,4 +40,8 @@
     margin-bottom: 20px;
     cursor: pointer;
     width: fit-content;
+}
+
+.Sidebar-listItem:hover {
+    color: black;
 }

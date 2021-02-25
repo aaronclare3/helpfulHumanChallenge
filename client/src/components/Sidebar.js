@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Sidebar.css";
 import { useHistory } from "react-router-dom";
 
 const Sidebar = ({ colorFilter, colors }) => {
+  const [currentColor, setCurrentColor] = useState(null);
   const history = useHistory();
 
   const handleClick = (color) => {
-    console.log("clicking");
+    setCurrentColor(color);
     colorFilter(color);
   };
 
@@ -38,7 +39,8 @@ const Sidebar = ({ colorFilter, colors }) => {
             <li
               key={col}
               onClick={() => handleClick(col)}
-              className='Sidebar-listItem'>
+              className='Sidebar-listItem'
+              style={{ color: col === currentColor ? "black" : "" }}>
               {col}
             </li>
           ))}

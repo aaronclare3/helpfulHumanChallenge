@@ -25,9 +25,9 @@ const ColorDetail = ({ match, colors }) => {
           <LargeColor color={color[0]} />
           <RelatedColors color={color[0]} colors={colors} />
           <div className='ColorDetail-buttonContainer'>
-            <button className='ColorDetail-button'>
-              <Link to='/'>Clear</Link>
-            </button>
+            <Link to='/'>
+              <button className='ColorDetail-button'>Clear</button>
+            </Link>
           </div>
         </>
       )}

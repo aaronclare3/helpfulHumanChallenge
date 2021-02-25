@@ -13,9 +13,9 @@
     border: 1px solid #4E5453;
     background: white;
     font-size: large;
+    cursor: pointer;
 }
 
-
-.ColorDetail-button > a {
+.ColorDetail-buttonContainer > a {
     text-decoration: none;
 }

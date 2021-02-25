@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
-const Header = () => {
+import Searchbar from "./Searchbar";
+
+const Header = ({ colors, passUpdatedList }) => {
   return (
     <div className='Header'>
       <div className='Header-logo'>
@@ -23,6 +25,9 @@ const Header = () => {
               id='Fill-8'></path>
           </g>
         </svg>
+      </div>
+      <div className='Header-searchbar'>
+        <Searchbar colors={colors} passUpdatedList={passUpdatedList} />
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import axios from "axios";
 const App = () => {
   const [colors, setColors] = useState([]);
   const [filteredColors, setFilteredColors] = useState([]);
+  const [searchedColors, setSearchedColors] = useState([]);
 
   const colorFilter = (color) => {
     const updatedColors = colors.filter((col) => col.colorCategory === color);
@@ -26,11 +27,15 @@ const App = () => {
     fetchColors();
   }, []);
 
+  const passUpdatedList = (list) => {
+    setSearchedColors(list);
+  };
+
   return (
     <div>
       <Router>
         {colors && <Sidebar colorFilter={colorFilter} colors={colors} />}
-        <Header />
+        {colors && <Header colors={colors} passUpdatedList={passUpdatedList} />}
         <Switch>
           <Route
             exact
@@ -40,6 +45,7 @@ const App = () => {
                 {...props}
                 colors={colors}
                 filteredColors={filteredColors}
+                searchedColors={searchedColors}
               />
             )}
           />
