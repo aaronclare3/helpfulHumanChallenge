@@ -8,6 +8,30 @@
 
 .Header-logo {
     position: relative;
-    top: 12px;
+    top: 2px;
     left: 35px;
+    max-width: 100px;
+    display: inline-block;
+}
+
+.Header-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    height: 75px;
+    align-items: center;
+}
+
+
+.Header-searchbar {
+    justify-content: end;
+}
+
+.Header-searchbar > input {
+    height: 40px;
+    border-radius: 8px;
+    width: 300px;
+    padding-left: 7px;
+    color: grey;
+    font-size: 17px;
+    padding-top: 4px;
 }

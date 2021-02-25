@@ -20,14 +20,12 @@ const Searchbar = ({ colors, passUpdatedList }) => {
   };
 
   return (
-    <div className='search'>
-      <input
-        type='text'
-        placeholder='Search for a color...'
-        onChange={(e) => filterHandler(e.target.value)}
-        value={userSearchFilter}
-      />
-    </div>
+    <input
+      type='text'
+      placeholder='Search for a hex...'
+      onChange={(e) => filterHandler(e.target.value)}
+      value={userSearchFilter}
+    />
   );
 };
 

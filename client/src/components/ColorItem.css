@@ -17,8 +17,12 @@
 }
 
 .ColorItem-detail {
-    color: #727575;
     margin: auto 0;
     font-size: 20px;
     margin-left: 15%;
+    cursor: pointer;
+    width: fit-content;
 }
+
+
+
