@@ -1,13 +1,13 @@
 import React from "react";
 import "./ColorItem.css";
 import { Link } from "react-router-dom";
-const ColorItem = ({ color }) => {
+const ColorItem = ({ color, height }) => {
   return (
     <div>
       <Link
         style={{ textDecoration: "none", color: "black" }}
         to={`/${color.hex}`}>
-        <div className='ColorItem'>
+        <div className='ColorItem' style={{ height: height }}>
           <div
             className='ColorItem-color'
             style={{ background: `#${color.hex}` }}></div>

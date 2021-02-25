@@ -7,7 +7,7 @@ const ColorList = ({ colors }) => {
     <div className='ColorList'>
       {colors.length > 0 &&
         colors.map((col) => {
-          return <ColorItem key={col._id} color={col} />;
+          return <ColorItem key={col._id} color={col} height={"270px"} />;
         })}
     </div>
   );

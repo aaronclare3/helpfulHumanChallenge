@@ -20,7 +20,7 @@ const RelatedColors = ({ color, colors }) => {
     <div className='RelatedColors'>
       {similarColors.length > 0 &&
         similarColors.slice(0, 5).map((col) => {
-          return <ColorItem key={col._id} color={col} />;
+          return <ColorItem key={col._id} color={col} height={"200px"} />;
         })}
     </div>
   );

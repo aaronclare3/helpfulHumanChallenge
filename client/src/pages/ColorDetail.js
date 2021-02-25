@@ -3,6 +3,7 @@ import axios from "axios";
 import LargeColor from "../components/LargeColor.js";
 import "./ColorDetail.css";
 import RelatedColors from "../components/RelatedColors";
+import { Link } from "react-router-dom";
 
 const ColorDetail = ({ match, colors }) => {
   const [color, setColor] = useState([]);
@@ -23,6 +24,11 @@ const ColorDetail = ({ match, colors }) => {
         <>
           <LargeColor color={color[0]} />
           <RelatedColors color={color[0]} colors={colors} />
+          <div className='ColorDetail-buttonContainer'>
+            <button className='ColorDetail-button'>
+              <Link to='/'>Clear</Link>
+            </button>
+          </div>
         </>
       )}
     </div>

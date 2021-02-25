@@ -1,7 +1,6 @@
 .ColorItem {
     display: grid;
     grid-auto-rows: 4fr 1fr;
-    height: 270px;
     /* width: 270px; */
     border-radius: 5px;
     box-shadow: 0px 0px 5px grey;
