@@ -5,13 +5,15 @@ const Searchbar = ({ colors, passUpdatedList }) => {
 
   const filterHandler = (inputVal) => {
     setUserSearchFilter(inputVal);
+    if (inputVal[0] === "#") {
+      inputVal = inputVal.substr(1, inputVal.length);
+    }
     const updatedList =
       colors &&
       colors.filter((col) => {
-        // Can also use .startsWith here if you want
+        // Can also use .startsWith here if you prefer
         return col.hex.toLowerCase().includes(inputVal.toLowerCase());
       });
-    console.log(updatedList);
     if (updatedList.length !== 0) {
       passUpdatedList(updatedList);
     } else {
