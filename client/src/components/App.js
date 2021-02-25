@@ -43,7 +43,11 @@ const App = () => {
               />
             )}
           />
-          <Route exact path='/:hex' component={ColorDetail} />
+          <Route
+            exact
+            path='/:hex'
+            render={(props) => <ColorDetail {...props} colors={colors} />}
+          />
         </Switch>
       </Router>
     </div>

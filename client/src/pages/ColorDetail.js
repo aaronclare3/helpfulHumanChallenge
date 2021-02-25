@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import LargeColor from "../components/LargeColor.js";
 import "./ColorDetail.css";
+import RelatedColors from "../components/RelatedColors";
 
-const ColorDetail = ({ match }) => {
+const ColorDetail = ({ match, colors }) => {
   const [color, setColor] = useState([]);
 
   useEffect(() => {
@@ -18,7 +19,12 @@ const ColorDetail = ({ match }) => {
 
   return (
     <div className='ColorDetail'>
-      <div>{color.length > 0 && <LargeColor color={color[0]} />}</div>
+      {color.length > 0 && (
+        <>
+          <LargeColor color={color[0]} />
+          <RelatedColors color={color[0]} colors={colors} />
+        </>
+      )}
     </div>
   );
 };
