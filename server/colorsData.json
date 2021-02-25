@@ -1,0 +1,568 @@
+[
+  {
+    "colorCategory": "Blue",
+    "hex": "000080"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "00008B"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "0000CD"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "0000FF"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "006400"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "008000"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "008080"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "008B8B"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "00BFFF"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "00CED1"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "00FA9A"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "00FF00"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "00FF7F"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "00FFFF"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "00FFFF"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "191970"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "1E90FF"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "20B2AA"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "228B22"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "2E8B57"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "2F4F4F"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "2F4F4F"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "32CD32"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "3CB371"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "40E0D0"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "4169E1"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "4682B4"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "483D8B"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "48D1CC"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "4B0082"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "556B2F"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "5F9EA0"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "6495ED"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "663399"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "66CDAA"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "696969"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "696969"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "6A5ACD"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "6B8E23"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "708090"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "778899"
+  },
+
+  {
+    "colorCategory": "Purple",
+    "hex": "7B68EE"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "7CFC00"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "7FFF00"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "7FFFD4"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "800000"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "800080"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "808000"
+  },
+  {
+    "colorCategory": "Grey",
+    "hex": "808080"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "87CEEB"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "87CEFA"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "8A2BE2"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "8B0000"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "8B008B"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "8B4513"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "8FBC8F"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "90EE90"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "9370DB"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "9400D3"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "98FB98"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "9932CC"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "9ACD32"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "A0522D"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "A52A2A"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "A9A9A9"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "ADD8E6"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "ADFF2F"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "AFEEEE"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "B0C4DE"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "B0E0E6"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "B22222"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "B8860B"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "BA55D3"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "BC8F8F"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "BDB76B"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "C0C0C0"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "C71585"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "CD5C5C"
+  },
+  {
+    "colorCategory": "Peru",
+    "hex": "CD853F"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "D2691E"
+  },
+  {
+    "colorCategory": "Orange",
+    "hex": "D2B48C"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "D3D3D3"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "D8BFD8"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "DA70D6"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "DAA520"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "DB7093"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "DC143C"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "DCDCDC"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "DDA0DD"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "DEB887"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "E0FFFF"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "E6E6FA"
+  },
+  {
+    "colorCategory": "Orange",
+    "hex": "E9967A"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "EE82EE"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "EEE8AA"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "F08080"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "F0E68C"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "F0F8FF"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "F0FFF0"
+  },
+  {
+    "colorCategory": "Blue",
+    "hex": "F0FFFF"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "F4A460"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "F5DEB3"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "F5F5DC"
+  },
+  {
+    "colorCategory": "Gray",
+    "hex": "F5F5F5"
+  },
+  {
+    "colorCategory": "Green",
+    "hex": "F5FFFA"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "F8F8FF"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "FA8072"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FAEBD7"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FAF0E6"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "FAFAD2"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FDF5E6"
+  },
+  {
+    "colorCategory": "Red",
+    "hex": "FF0000"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "FF00FF"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "FF00FF"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "FF1493"
+  },
+  {
+    "colorCategory": "Orange",
+    "hex": "FF4500"
+  },
+  {
+    "colorCategory": "Orange",
+    "hex": "FF6347"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "FF69B4"
+  },
+  {
+    "colorCategory": "Orange",
+    "hex": "FF7F50"
+  },
+  {
+    "colorCategory": "Orange",
+    "hex": "FF8C00"
+  },
+  {
+    "colorCategory": "Orange",
+    "hex": "FFA07A"
+  },
+  {
+    "colorCategory": "Orange",
+    "hex": "FFA500"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "FFB6C1"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "FFC0CB"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "FFD700"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFDAB9"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFDEAD"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFE4B5"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFE4C4"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "FFE4E1"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFEBCD"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFEFD5"
+  },
+  {
+    "colorCategory": "Purple",
+    "hex": "FFF0F5"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFF5EE"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFF8DC"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "FFFACD"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFFAF0"
+  },
+  {
+    "colorCategory": "Brown",
+    "hex": "FFFAFA"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "FFFF00"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "FFFFE0"
+  },
+  {
+    "colorCategory": "Yellow",
+    "hex": "FFFFF0"
+  }
+]
+
