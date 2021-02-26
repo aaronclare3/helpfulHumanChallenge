@@ -3,7 +3,7 @@ import ColorList from "../components/ColorList";
 import "./Main.css";
 import Pagination from "../components/Pagination";
 
-const Main = ({ colors, filteredColors, searchedColors }) => {
+const Main = ({ colors, filteredColors, searchedColors, searchActive }) => {
   const [itemsPerPage, setItemsPerPage] = useState(12);
   const [currentPage, setCurrentPage] = useState(0);
   const [pages, setPages] = useState(null);
@@ -13,10 +13,8 @@ const Main = ({ colors, filteredColors, searchedColors }) => {
     let numPages;
     if (filteredColors.length > 0) {
       numPages = Math.ceil(filteredColors.length / itemsPerPage);
-      console.log(numPages);
     } else {
       numPages = Math.ceil(colors.length / itemsPerPage);
-      console.log(numPages);
     }
     for (let i = 0; i < numPages; i++) {
       pagesArray.push(i);
@@ -38,7 +36,7 @@ const Main = ({ colors, filteredColors, searchedColors }) => {
               currentPage * itemsPerPage + itemsPerPage
             )}
           />
-        ) : searchedColors.length > 0 ? (
+        ) : searchedColors != null ? (
           <ColorList
             colors={searchedColors.slice(
               currentPage * itemsPerPage,
@@ -56,6 +54,7 @@ const Main = ({ colors, filteredColors, searchedColors }) => {
       </div>
       <div>
         <Pagination
+          colors={searchedColors}
           currentPage={currentPage}
           itemsPerPage={itemsPerPage}
           pages={pages}

@@ -1,15 +1,64 @@
-require("dotenv").config();
 const express = require("express");
-const mongoose = require("mongoose");
 const app = express();
-const colorsRoutes = require("./routes/colorsRoutes");
-const connectDB = require("./config/db");
+const PORT = 6969;
+const colorData = require("./colorsData.json");
+const graphql = require("graphql");
 const cors = require("cors");
+const path = require("path");
 
-connectDB();
+const {
+  GraphQLObjectType,
+  GraphQLSchema,
+  GraphQLString,
+  GraphQLInt,
+  GraphQLList,
+} = graphql;
+const { graphqlHTTP } = require("express-graphql");
 
+const ColorType = new GraphQLObjectType({
+  name: "Color",
+  fields: () => ({
+    id: { type: GraphQLInt },
+    colorCategory: { type: GraphQLString },
+    hex: { type: GraphQLString },
+  }),
+});
+
+const RootQuery = new GraphQLObjectType({
+  name: "RootQueryType",
+  fields: {
+    getAllColors: {
+      type: new GraphQLList(ColorType),
+      args: { id: { type: GraphQLInt } },
+      resolve(parent, args) {
+        return colorData;
+      },
+    },
+    getColor: {
+      type: ColorType,
+      args: { hex: { type: GraphQLString } },
+      resolve(parent, args) {
+        return colorData.find((col) => col.hex === args.hex);
+      },
+    },
+  },
+});
+
+const schema = new GraphQLSchema({ query: RootQuery });
 app.use(cors());
-app.use(express.json());
-app.use("/colors", colorsRoutes);
+app.use(
+  "/graphql",
+  graphqlHTTP({
+    schema,
+    graphiql: true,
+  })
+);
 
-app.listen(4000, () => console.log("server is up and running on port 4000!"));
+app.use(express.static("public"));
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "public", "index.html"));
+});
+
+app.listen(PORT, () => {
+  console.log("server running!");
+});

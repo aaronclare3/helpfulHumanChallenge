@@ -45,3 +45,17 @@
 .Sidebar-listItem:hover {
     color: black;
 }
+
+@media (max-width: 500px) {
+    .Sidebar {
+        min-height: 100%;
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Sidebar {
+        width: 150px;
+    }
+}
+

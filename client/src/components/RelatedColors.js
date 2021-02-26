@@ -6,10 +6,10 @@ const RelatedColors = ({ color, colors }) => {
   const [similarColors, setSimilarColors] = useState([]);
 
   useEffect(() => {
-    if (color && colors.length > 0) {
+    if (colors.length > 0) {
       const similar = colors.filter((col) => {
         return (
-          col.colorCategory === color.colorCategory && col._id !== color._id
+          col.colorCategory === color.colorCategory && col.hex !== color.hex
         );
       });
       setSimilarColors(similar);
@@ -20,7 +20,7 @@ const RelatedColors = ({ color, colors }) => {
     <div className='RelatedColors'>
       {similarColors.length > 0 &&
         similarColors.slice(0, 5).map((col) => {
-          return <ColorItem key={col._id} color={col} height={"200px"} />;
+          return <ColorItem key={col.hex} color={col} height={"200px"} />;
         })}
     </div>
   );

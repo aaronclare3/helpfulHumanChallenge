@@ -23,3 +23,15 @@
 .ColorDetail-buttonContainer > a {
     text-decoration: none;
 }
+
+@media (max-width: 500px) {
+    .ColorDetail {
+        padding: 130px 50px 50px 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ColorDetail {
+        padding: 130px 50px 50px 180px;
+    }
+}

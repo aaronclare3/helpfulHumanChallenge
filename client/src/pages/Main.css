@@ -1,3 +1,16 @@
 .Main {
     padding: 130px 50px 50px 300px;
 }
+
+@media (max-width: 500px) {
+    .Main {
+        padding: 130px 50px 50px 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Main {
+        padding: 130px 50px 50px 180px;
+    }
+}
+
