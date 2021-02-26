@@ -4,6 +4,7 @@ const PORT = 6969;
 const colorData = require("./colorsData.json");
 const graphql = require("graphql");
 const cors = require("cors");
+const path = require("path");
 
 const {
   GraphQLObjectType,
@@ -43,8 +44,6 @@ const RootQuery = new GraphQLObjectType({
   },
 });
 
-// const Mutation = "mutation";
-
 const schema = new GraphQLSchema({ query: RootQuery });
 app.use(cors());
 app.use(
@@ -54,6 +53,11 @@ app.use(
     graphiql: true,
   })
 );
+
+app.use(express.static("public"));
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "public", "index.html"));
+});
 
 app.listen(PORT, () => {
   console.log("server running!");
