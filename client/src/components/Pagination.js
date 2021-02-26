@@ -13,6 +13,7 @@ const Pagination = ({
   };
   return (
     <div>
+      {console.log(colors)}
       {colors != null && colors.length === 0 ? (
         <div>Sorry, try another search!</div>
       ) : (
