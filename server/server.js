@@ -59,6 +59,6 @@ app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "public", "index.html"));
 });
 
-server.listen({ port: PORT || 4000 }).then(({ url }) => {
+app.listen({ port: PORT || 4000 }).then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
 });
