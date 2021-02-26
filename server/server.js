@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = 6969;
+const PORT = 6969 || 3000;
 const colorData = require("./colorsData.json");
 const graphql = require("graphql");
 const cors = require("cors");
@@ -59,6 +59,6 @@ app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "public", "index.html"));
 });
 
-app.listen(PORT || 5000, () => {
+app.listen(PORT, () => {
   console.log("server running!");
 });
