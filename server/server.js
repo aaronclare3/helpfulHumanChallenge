@@ -7,6 +7,7 @@ const connectDB = require("./config/db");
 const cors = require("cors");
 
 connectDB();
+// mern
 
 app.use(cors());
 app.use(express.json());
